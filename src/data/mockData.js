@@ -15,8 +15,8 @@
 export const mockUsers = [
   {
     User_ID: 101,
-    Name: "Alex Morgan",
-    Email: "alex.morgan@college.edu"
+    Name: "Raghav",
+    Email: "raghav@example.com"
     // Passwords are never stored or exposed in the frontend
   }
 ];

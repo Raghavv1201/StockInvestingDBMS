@@ -49,11 +49,11 @@ export default function Navbar({ onOpenTradeModal, setIsMobileOpen, user }) {
         <div className="flex items-center gap-3 pl-2 sm:pl-3 border-l border-white/10">
           <div className="w-9 h-9 rounded-full bg-gradient-to-br from-purple-500 to-rose-500 p-[1.5px] shadow-[0_0_12px_rgba(139,92,246,0.4)]">
             <div className="w-full h-full bg-dark-900 rounded-full flex items-center justify-center text-purple-300 font-bold text-xs">
-              {user?.Name ? user.Name.slice(0, 2).toUpperCase() : 'AM'}
+              {user?.Name ? user.Name.charAt(0).toUpperCase() : 'R'}
             </div>
           </div>
           <div className="hidden xl:block text-left">
-            <div className="text-xs font-semibold text-white">{user?.Name || 'Alex Morgan'}</div>
+            <div className="text-xs font-semibold text-white">{user?.Name || 'Raghav'}</div>
             <div className="text-[10px] text-slate-400 font-mono">UID: #{user?.User_ID || 101}</div>
           </div>
         </div>

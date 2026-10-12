@@ -133,7 +133,7 @@ export default function Dashboard({
               <span>Demo Mode &bull; Predefined StockInvestingDB Dataset</span>
             </div>
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
-              Welcome back, <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-rose-300 to-amber-300">{user?.Name || 'Alex Morgan'}</span>
+              Welcome back, <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-rose-300 to-amber-300">{user?.Name || 'Raghav'}</span>
             </h1>
             <p className="text-slate-400 text-sm max-w-xl">
               Real-time portfolio management, stock analysis, and transactional ledger powered by relational database architecture.

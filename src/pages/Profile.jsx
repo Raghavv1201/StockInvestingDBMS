@@ -57,11 +57,11 @@ export default function Profile({ user, profile }) {
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-brand-purple via-brand-violet to-brand-coral p-[2px] shadow-glow-purple">
                 <div className="w-full h-full bg-dark-950 rounded-[14px] flex items-center justify-center text-xl font-extrabold text-purple-300">
-                  {user?.Name ? user.Name.slice(0, 2).toUpperCase() : 'AM'}
+                  {user?.Name ? user.Name.charAt(0).toUpperCase() : 'R'}
                 </div>
               </div>
               <div>
-                <h2 className="text-lg font-bold text-white tracking-wide">{user?.Name || 'Alex Morgan'}</h2>
+                <h2 className="text-lg font-bold text-white tracking-wide">{user?.Name || 'Raghav'}</h2>
                 <p className="text-xs text-slate-400">Retail Equity Investor</p>
                 <div className="mt-1">
                   <Badge variant="purple" size="xs">
@@ -74,7 +74,7 @@ export default function Profile({ user, profile }) {
             <div className="pt-4 border-t border-white/5 space-y-3 text-xs">
               <div className="flex items-center gap-3 text-slate-300">
                 <Mail className="w-4 h-4 text-purple-400 shrink-0" />
-                <span className="font-mono">{user?.Email || 'alex.morgan@finvest.edu'}</span>
+                <span className="font-mono">{user?.Email || 'raghav@example.com'}</span>
               </div>
               <div className="flex items-center gap-3 text-slate-300">
                 <Key className="w-4 h-4 text-slate-500 shrink-0" />

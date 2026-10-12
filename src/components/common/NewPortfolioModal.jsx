@@ -62,7 +62,7 @@ export default function NewPortfolioModal({ isOpen, onClose, onCreatePortfolio }
           <div className="rounded-xl bg-dark-950 border border-white/5 p-3.5 text-xs text-slate-400 space-y-1">
             <div className="flex justify-between font-mono text-[11px]">
               <span>User_ID:</span>
-              <span className="text-white">101 (Alex Morgan)</span>
+              <span className="text-white">101 (Raghav)</span>
             </div>
             <div className="flex justify-between font-mono text-[11px]">
               <span>Created_At:</span>
